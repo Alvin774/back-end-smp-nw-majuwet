@@ -1,0 +1,47 @@
+/* Style Banner Home Start */
+
+.sambutan {
+}
+
+.sambutan .box-sambutan {
+  width: 85%;
+  height: 165px;
+  background-color: #ffffff;
+  box-shadow: 12px 11px 11px rgba(174, 174, 174, 0.4);
+}
+
+.sambutan .text-justify {
+  text-align: justify;
+  font-size: 1em;
+  letter-spacing: 1.2px;
+  font-family: "Roboto", serif;
+}
+
+.sambutan .card {
+  border: none;
+  border-radius: 8px;
+}
+
+.sambutan .card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.sambutan .card-body h5 {
+  color: #004d00;
+}
+
+.sambutan .card-body .btn-sekolah {
+  background: linear-gradient(to bottom, rgb(34, 139, 34), rgb(9, 37, 9));
+  padding-left: 20px;
+  padding-right: 20px;
+  letter-spacing: 1.2px;
+  /* font-family: "Rethink Sans", serif; */
+  font-family: "Roboto", serif;
+  font-size: 15px;
+  border: none;
+  color: white;
+  border-radius: 0px;
+}
+
+/* Style Sambutan End */
