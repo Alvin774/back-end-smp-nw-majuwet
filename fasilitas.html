@@ -4,12 +4,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
     <!-- link icon -->
     <link
       rel="stylesheet"
@@ -29,7 +23,7 @@
       rel="stylesheet"
     />
     <!-- link home.css -->
-    <link rel="stylesheet" href="css/sambutan.css" />
+    <link rel="stylesheet" href="css/fasilitas.css" />
   </head>
   <body>
     <!-- navigasi 2 start -->
@@ -116,82 +110,106 @@
         </div>
       </div>
     </nav>
-    <!-- Navigasi 2 End -->
+    <!-- Header End -->
 
-    <!-- Sambutan Kepsek Start -->
+    <!-- Fasilitas Start -->
 
-    <section class="py-5 sambutan" style="background-color: #ffffff">
+    <section
+      class="fasilitas-section position-relative overflow-hidden text-white text-start"
+    >
+      <div class="overlay"></div>
+      <div class="container position-relative">
+        <h1 class="display-4 fw-bold ms-4 animated-text">Fasilitas</h1>
+      </div>
+    </section>
+
+    <section class="fasilitas-gambar text-center py-5">
       <div class="container">
-        <div
-          class="box-sambutan mx-auto d-flex flex-column justify-content-center text-center mb-5"
-        >
-          <h4 class="fw-bold">
-            Sambutan Kepala Sekolah SMP Islam Sa’adatuddarain NW Majuwet
-          </h4>
-          <h5 class="fw-bold">Fathullah S.Pd</h5>
-          <hr class="garis" />
+        <!-- Header -->
+        <div class="mb-4">
+          <img
+            src="icon/chalkboard-user-solid.png"
+            alt="Icon"
+            class="mb-4"
+            style="width: 70px"
+          />
+          <h3 class="fw-bold">Fasilitas</h3>
+          <p class="text-muted">
+            Fasilitas SMP Islam Sa'adatuddarain NW Majuwet
+          </p>
+          <div class="d-flex justify-content-center">
+            <hr class="mx-auto" style="width: 31.25em" />
+            <i class="bi bi-star" style="font-size: 24px; color: black"></i>
+            <hr class="mx-auto" style="width: 31.25em" />
+          </div>
         </div>
-        <div class="row">
-          <!-- Kolom Sambutan -->
-          <div class="col-12 col-lg-8 mb-4">
-            <p class="text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <p class="text-justify">
-              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-              posuere cubilia curae; Donec vel lacus ac lacus dictum
-              sollicitudin. Vivamus at magna eu augue faucibus lacinia ut in
-              quam. Cras tristique, lorem in tincidunt pretium, nisl quam
-              pulvinar mi, at convallis lectus ligula vel ex. Fusce tincidunt
-              nisi non odio tincidunt, ac fermentum lorem gravida. Sed
-              pellentesque lorem non lacus vehicula, at convallis nulla
-              volutpat. Integer eget eros nec odio vehicula consectetur. Cras
-              luctus, justo non sagittis ultrices, lectus nisl dignissim odio,
-              sed tincidunt augue nunc ut arcu.
-            </p>
-            <p class="text-justify">
-              Curabitur pellentesque dui vel velit lacinia, nec egestas nulla
-              tempus. Nullam vehicula suscipit felis, nec sagittis mauris luctus
-              id. Aliquam posuere arcu non ligula vehicula tincidunt. Phasellus
-              consectetur magna nec mi tempor, id pellentesque nulla
-              consectetur. Suspendisse potenti. Mauris ac odio nec augue
-              facilisis pretium sed sit amet magna. Sed quis lectus ac mauris
-              mollis dapibus. Proin nec ante ac turpis cursus suscipit. Aenean
-              elementum ex id arcu facilisis, vel accumsan mi porttitor.
-            </p>
-            <p class="text-justify">
-              In hac habitasse platea dictumst. Ut malesuada nisl nec turpis
-              dapibus, a tempus velit condimentum. Aenean interdum felis vitae
-              ligula consequat eleifend. Integer pellentesque, risus eget
-              molestie hendrerit, erat quam faucibus neque, non malesuada justo
-              purus sed lectus. Sed fringilla interdum magna, sit amet volutpat
-              mauris mollis a. Duis non nisi at sem posuere porttitor. Etiam
-              tincidunt lorem sit amet sapien convallis congue. Suspendisse
-              dignissim risus a leo cursus vehicula. Nulla facilisi. Etiam
-              tempus sit amet ligula in gravida.
-            </p>
+
+        <!-- Cards Grid -->
+        <div class="row d-flex justify-content-center g-4"></div>
+      </div>
+    </section>
+
+    <section class="card-fasilitas py-5">
+      <div class="container">
+        <div class="row justify-content-center g-4">
+          <!-- Card 1 -->
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img
+                src="fasilitas/ruang-kelas.jpg"
+                class="card-img-top"
+                alt="Ruang Kelas"
+              />
+              <div class="card-body text-center">
+                <p class="card-text fw-bold fs-4">Ruang Kelas</p>
+              </div>
+            </div>
           </div>
 
-          <!-- Kolom Foto dan Identitas -->
-          <div class="col-lg-4 text-center">
-            <div class="card shadow-sm">
+          <!-- Card 2 -->
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img src="fasilitas/aula.jpg" class="card-img-top" alt="Aula" />
+              <div class="card-body text-center">
+                <p class="card-text fw-bold fs-4">Aula</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card">
               <img
-                src="img/kepsek.jpg"
+                src="fasilitas/lab-komputer.jpg"
                 class="card-img-top"
-                alt="Fathullah S.Pd"
+                alt="lab-komputer"
               />
-              <div class="card-body">
-                <h5 class="fw-bold">-- Fathullah S.Pd --</h5>
-                <p class="text-muted">Kepala Sekolah</p>
-                <a href="biodata-kepsek.html" class="btn btn-sekolah"
-                  >Lihat Biodata</a
-                >
+              <div class="card-body text-center">
+                <p class="card-text fw-bold fs-4">Lab.Komputer</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col-12 col-sm-6 col-md-4 mx-auto">
+            <div class="card">
+              <img
+                src="fasilitas/lab-ipa.jpg"
+                class="card-img-top"
+                alt="Lab-Ipa"
+              />
+              <div class="card-body text-center">
+                <p class="card-text fw-bold fs-4">Lab.IPA</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="col-12 col-sm-6 col-md-4 mx-auto">
+            <div class="card">
+              <img src="fasilitas/WC.jpg" class="card-img-top" alt="WC" />
+              <div class="card-body text-center">
+                <p class="card-text fw-bold fs-4">WC</p>
               </div>
             </div>
           </div>
@@ -199,7 +217,7 @@
       </div>
     </section>
 
-    <!-- Sambutan Kepsek End -->
+    <!-- Fasilitas End -->
 
     <!-- Follow Us Start -->
 
@@ -287,10 +305,9 @@
     </section>
 
     <!-- Footer End -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
+
+
+    <script src="main.js" type="module">
+    </script>
   </body>
 </html>

@@ -4,12 +4,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
     <!-- link icon -->
     <link
       rel="stylesheet"
@@ -29,7 +23,7 @@
       rel="stylesheet"
     />
     <!-- link home.css -->
-    <link rel="stylesheet" href="css/fasilitas.css" />
+    <link rel="stylesheet" href="css/sejarah.css" />
   </head>
   <body>
     <!-- navigasi 2 start -->
@@ -116,114 +110,81 @@
         </div>
       </div>
     </nav>
-    <!-- Header End -->
-
-    <!-- Fasilitas Start -->
-
+    <!-- Navigasi 2 End -->
     <section
-      class="fasilitas-section position-relative overflow-hidden text-white text-start"
+      class="sejarah-section position-relative overflow-hidden text-white text-start"
     >
       <div class="overlay"></div>
       <div class="container position-relative">
-        <h1 class="display-4 fw-bold ms-4 animated-text">Fasilitas</h1>
+        <h1 class="display-4 fw-bold ms-4 animated-text">Sejarah</h1>
       </div>
     </section>
 
-    <section class="fasilitas-gambar text-center py-5">
-      <div class="container">
-        <!-- Header -->
-        <div class="mb-4">
-          <img
-            src="icon/chalkboard-user-solid.png"
-            alt="Icon"
-            class="mb-4"
-            style="width: 70px"
-          />
-          <h3 class="fw-bold">Fasilitas</h3>
-          <p class="text-muted">
-            Fasilitas SMP Islam Sa'adatuddarain NW Majuwet
+    <section class="py-5 sejarah">
+      <section class="sejarah-gambar text-center py-5">
+        <div class="container">
+          <!-- Header -->
+          <div class="mb-4">
+            <img
+              src="icon/scroll-solid.png"
+              alt="Icon"
+              class="mb-4"
+              style="width: 70px"
+            />
+            <h3 class="fw-bold">Sejarah</h3>
+            <p class="text-muted text-center">
+              Sejarah SMP Islam Sa'adatuddarain NW Majuwet
+            </p>
+            <div class="d-flex justify-content-center">
+              <hr class="mx-auto" style="width: 31.25em" />
+              <i class="bi bi-star" style="font-size: 24px; color: black"></i>
+              <hr class="mx-auto" style="width: 31.25em" />
+            </div>
+          </div>
+
+          <!-- Cards Grid -->
+          <div class="row d-flex justify-content-center g-4"></div>
+        </div>
+      </section>
+      <div class="container text-center">
+        <div class="text-start mt-5">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
           </p>
-          <div class="d-flex justify-content-center">
-            <hr class="mx-auto" style="width: 31.25em" />
-            <i class="bi bi-star" style="font-size: 24px; color: black"></i>
-            <hr class="mx-auto" style="width: 31.25em" />
-          </div>
-        </div>
-
-        <!-- Cards Grid -->
-        <div class="row d-flex justify-content-center g-4"></div>
-      </div>
-    </section>
-
-    <section class="card-fasilitas py-5">
-      <div class="container">
-        <div class="row justify-content-center g-4">
-          <!-- Card 1 -->
-          <div class="col-12 col-sm-6 col-md-4">
-            <div class="card">
-              <img
-                src="fasilitas/ruang-kelas.jpg"
-                class="card-img-top"
-                alt="Ruang Kelas"
-              />
-              <div class="card-body text-center">
-                <p class="card-text fw-bold fs-4">Ruang Kelas</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Card 2 -->
-          <div class="col-12 col-sm-6 col-md-4">
-            <div class="card">
-              <img src="fasilitas/aula.jpg" class="card-img-top" alt="Aula" />
-              <div class="card-body text-center">
-                <p class="card-text fw-bold fs-4">Aula</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Card 3 -->
-          <div class="col-12 col-sm-6 col-md-4">
-            <div class="card">
-              <img
-                src="fasilitas/lab-komputer.jpg"
-                class="card-img-top"
-                alt="lab-komputer"
-              />
-              <div class="card-body text-center">
-                <p class="card-text fw-bold fs-4">Lab.Komputer</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Card 4 -->
-          <div class="col-12 col-sm-6 col-md-4 mx-auto">
-            <div class="card">
-              <img
-                src="fasilitas/lab-ipa.jpg"
-                class="card-img-top"
-                alt="Lab-Ipa"
-              />
-              <div class="card-body text-center">
-                <p class="card-text fw-bold fs-4">Lab.IPA</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Card 5 -->
-          <div class="col-12 col-sm-6 col-md-4 mx-auto">
-            <div class="card">
-              <img src="fasilitas/WC.jpg" class="card-img-top" alt="WC" />
-              <div class="card-body text-center">
-                <p class="card-text fw-bold fs-4">WC</p>
-              </div>
-            </div>
-          </div>
+          <p>
+            Suspendisse potenti. Maecenas in metus ac felis ultricies convallis
+            a in felis. Praesent imperdiet malesuada lacus, nec ullamcorper
+            lorem ultricies nec. Integer a urna at libero dictum efficitur.
+            Nulla facilisi. Sed vestibulum, felis et efficitur tincidunt, magna
+            lorem convallis ligula, et posuere massa libero nec metus. Nam
+            facilisis malesuada eros, non dignissim nulla aliquam quis.
+          </p>
+          <p>
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia curae; Nullam volutpat lectus a neque tincidunt
+            vehicula. Integer nec vehicula nisl. Aliquam erat volutpat. Fusce
+            fermentum orci non lacus euismod, et pellentesque massa placerat.
+            Curabitur euismod mauris et magna vehicula, in vehicula lectus
+            consequat. Donec in risus orci. Vivamus suscipit ligula non ligula
+            posuere, id elementum risus facilisis.
+          </p>
+          <p>
+            Aenean ac felis at nunc auctor tristique nec eget ligula. Nam ac
+            arcu convallis, sodales odio eget, pellentesque turpis. Duis viverra
+            bibendum felis, eget dignissim magna fermentum id. Quisque tempor
+            enim id vehicula sodales. Nullam consectetur nisl massa facilisis,
+            at suscipit purus viverra. Donec a tortor nisl. Sed eget tortor
+            velit porttitor vestibulum ac ac arcu.
+          </p>
         </div>
       </div>
     </section>
-
-    <!-- Fasilitas End -->
 
     <!-- Follow Us Start -->
 
@@ -312,10 +273,10 @@
 
     <!-- Footer End -->
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
+
+    <script src="main.js" type="module">
+      import './js/home.js'
+      @import './css/home.css'
+    </script>
   </body>
 </html>

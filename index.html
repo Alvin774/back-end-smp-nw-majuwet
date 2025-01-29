@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Website SMP Islam Sa'adatuddarain NW Majuwet</title>
-    <link rel="stylesheet" href="boostrap/dist/css/boostrap.min.css">
+
     <!-- link icon -->
     <link
       rel="stylesheet"
@@ -23,7 +23,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
       rel="stylesheet"
     />
-
+    <!-- link home.css -->
   </head>
   <body>
     <!-- Header Start -->
@@ -48,7 +48,7 @@
       <div class="container">
         <a class="navbar-brand text-white" href="#">
           <img
-            src="@assets/img/YEKA-removebg-preview.png"
+            src="img/YEKA-removebg-preview.png"
             alt="Logo"
             width=""
             height="60"
@@ -84,20 +84,20 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="./page/sambutan.html"
+                  <a class="dropdown-item" href="sambutan.html"
                     >Sambutan Kepala Sekolah</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./page/data-sekolah.html"
+                  <a class="dropdown-item" href="data-sekolah.html"
                     >Data Sekolah</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./index.html">Sejarah</a>
+                  <a class="dropdown-item" href="sejarah.html">Sejarah</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./page/visi-misi-tujuan.html"
+                  <a class="dropdown-item" href="visi-misi-tujuan.html"
                     >Visi Dan Misi</a
                   >
                 </li>
@@ -107,13 +107,13 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./page/guru.html">Guru</a>
+              <a class="nav-link" href="guru.html">Guru</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./page/fasilitas.html">Fasilitas</a>
+              <a class="nav-link" href="fasilitas.html">Fasilitas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./page/ekstrakurikuler.html"
+              <a class="nav-link" href="ekstrakurikuler.html"
                 >Ekstrakulikuler</a
               >
             </li>
@@ -121,7 +121,7 @@
               <a class="nav-link" href="#">Prestasi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./page/ppdb.html">PPDB</a>
+              <a class="nav-link" href="ppdb.html">PPDB</a>
             </li>
           </ul>
         </div>
@@ -158,7 +158,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-xl-4">
             <div class="card h-100">
               <img
-                src="@assets/berita-artikel/berita1.jpg"
+                src="berita-artikel/berita1.jpg"
                 class="card-img-top"
                 alt="Berita Image"
               />
@@ -668,6 +668,9 @@
     </section>
 
     <!-- Footer End -->
-    <script type="module" src="/src/main.js"></script>
+    <script src="main.js" type="module">
+      import './js/home.js'
+      @import './css/home.css'
+    </script>
   </body>
 </html>
